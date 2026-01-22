@@ -3,7 +3,7 @@ name: 📦 Set descripton to github and dockerhub
 on:
   push:
     branches:
-      - main
+      - disabled
     paths:
       - README.md
       - .github/workflows/dockerhub-description.yml
