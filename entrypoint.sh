@@ -97,7 +97,7 @@ else
     echo -e "${DIM}Production audit skipped (PROD=FALSE)${NC}"
 fi
 
-# --- 3. Startup Preparation ---
+# --- 3. Startup Preparation & Mod Download --- 
 log_section "Process Execution"
 log_step "Finalizing Environment"
 cd "$SCRIPTS_PATH/hytale-mod-downloader"
