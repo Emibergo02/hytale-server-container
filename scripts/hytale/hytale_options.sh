@@ -43,6 +43,7 @@ export HYTALE_VALIDATE_PREFABS_OPT=""
 export HYTALE_VALIDATE_WORLD_GEN_OPT=""
 export HYTALE_VERSION_OPT=""
 export HYTALE_WORLD_GEN_OPT=""
+export HYTALE_CACHE_OPT=""
 
 # Accept Early Plugins
 log_step "Accept Early Plugins"
