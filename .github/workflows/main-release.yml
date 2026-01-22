@@ -70,8 +70,8 @@ jobs:
           push: true
           platforms: linux/amd64
           tags: |
-            ghcr.io/unnm3d/hytale-server:${{ matrix.tag_suffix }}-${{ steps.get_version.outputs.version }}
-            ghcr.io/unnm3d/hytale-server:${{ matrix.tag_suffix }}
+            ghcr.io/Emibergo02/hytale-server:${{ matrix.tag_suffix }}-${{ steps.get_version.outputs.version }}
+            ghcr.io/Emibergo02/hytale-server:${{ matrix.tag_suffix }}
           cache-from: type=gha,scope=${{ matrix.tag_suffix }}-${{ steps.get_version.outputs.version }}
           cache-to: type=gha,mode=max,scope=${{ matrix.tag_suffix }}-${{ steps.get_version.outputs.version }}
       - name: Build & push to Docker Hub
